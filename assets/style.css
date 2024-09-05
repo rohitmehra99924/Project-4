@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainpage{
+    width: 100vw;
+    background-color: rgb(220, 181, 134);
+}
+.font-base{
+    font-size: var(--fs-base);
+}
+.font-md{
+    font-size: var(--fs-md);
+}
+.font-lg{
+    font-size: var(--fs-lg);
+}
+.font-xl{
+    font-size: var(--fs-xl);
+}
+.font-2xl{
+    font-size: var(--fs-2xl);
+}
+.font-4xl{
+    font-size: var(--fs-4xl);
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.page1 header nav a{
+    font-size: var(--fs-md);
+}
+.page1 main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+.page1 main .left{
+    height: 100%;
+    width: 50%;
+    background-color: var(--lightblack);
+}
+.page1 main .right{
+    height: 100%;
+    width: 50%;
+    background-color: var(--lightpurple);
+}
